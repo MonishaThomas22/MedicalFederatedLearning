@@ -16,3 +16,30 @@ models/*.keras
 .ipynb_checkpoints/
 .DS_Store
 Thumbs.db
+
+# Dataset archives and hospital test data
+*.zip
+Hospital1_Test/
+Hospital2_Test/
+
+# Model files
+models/
+
+# Logs
+logs/
+*.log
+
+# Node.js
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+dist/
+build/
+
+# Python virtual environments
+backend/.venv/
+data/
+
+backend/main_backup_before_training_fix.py
+
+frontend/src/App.jsx.backup-*
